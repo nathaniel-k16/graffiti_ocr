@@ -1,0 +1,15 @@
+# Don't track temporary Python cache files
+__pycache__/
+
+# Don't track your raw images or trained model checkpoints
+data/
+images/
+*.png
+*.jpg
+*.jpeg
+*.pth
+*.pt
+
+# Don't track Mac/Windows hidden desktop files
+.DS_Store
+Thumbs.db
